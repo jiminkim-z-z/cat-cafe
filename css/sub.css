@@ -1,0 +1,130 @@
+body {
+  overflow: hidden auto;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /*text-transform: uppercase;*/
+  font-family: "Arial Black", serif;
+  font-size: 20pt;
+  color: white;
+  padding: 10px;
+  border-bottom: 4px white solid;
+}
+
+.top img {
+  height: 45px;
+  margin-right: 20px;
+}
+
+.content {
+  color: white;
+  padding: 20px;
+}
+
+.content .gif1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.content .gif1 img {
+  margin-right: 10px;
+}
+
+.content .gif2 {
+  display: flex;
+  justify-content: center;
+}
+
+.shop {
+  background-image: url(../img/shopBackground.jpeg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.shop .goods {
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+
+.shop .goods .beverage01 {
+  position: absolute;
+  height: 80px;
+  left: -360px;
+  top: -20px;
+}
+
+.shop .goods .beverage02 {
+  position: absolute;
+  height: 80px;
+  left: -25px;
+  top: -20px;
+}
+
+.shop .goods .beverage03 {
+  position: absolute;
+  height: 80px;
+  left: 307px;
+  top: -20px;
+}
+
+.shop .goods .beverage04 {
+  position: absolute;
+  height: 80px;
+  left: -360px;
+  top: 97px;
+}
+.shop .goods .beverage05 {
+  position: absolute;
+  height: 80px;
+  left: -35px;
+  top: 97px;
+}
+
+.shop .goods .beverage06 {
+  position: absolute;
+  height: 80px;
+  left: 274px;
+  top: 97px;
+}
+
+.shop .goods .snack01 {
+  position: absolute;
+  height: 80px;
+  left: -380px;
+  top: -20px;
+}
+
+.shop .goods .snack02 {
+  position: absolute;
+  height: 80px;
+  left: -47px;
+  top: -20px;
+}
+
+.shop .goods .snack03 {
+  position: absolute;
+  height: 80px;
+  left: 290px;
+  top: -20px;
+}
+
+.shop .goods .snack04 {
+  position: absolute;
+  height: 80px;
+  left: -213px;
+  top: 97px;
+}
+.shop .goods .snack05 {
+  position: absolute;
+  height: 80px;
+  left: 120px;
+  top: 97px;
+}
